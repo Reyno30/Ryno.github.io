@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Belajar</title>
+  </head>
+  <body>
+
+<h2>Login</h2>
+
+<form action="proses_login_php" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="radio">Jenis kelamin:</label>
+    
+    <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki">
+    <label for="laki-laki">Laki-laki</label>
+
+    <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+    <label for="perempuan">Perempuan</label><br><br>
+
+    <label for="kota">Asal Kota:</label>
+    <select id="kota" name="kota">
+        <option value="jakarta">Jakarta</option>
+        <option value="bandung">Bandung</option>
+        <option value="B.lampung">B.lampung</option>
+        <option value="medan">Medan</option>
+        <option value="yogyakarta">Yogyakarta</option>
+    </select><br><br>
+
+    <label for="bp">BHS.pemograman yg dikuasai</label><br>    
+
+    <input type="checkbox" id="php" name="bp" value="php">
+    <label for="php">PHP</label>
+
+    <input type="checkbox" id="phyton" name="bp" value="phyton">
+    <label for="phyton">Phyton</label><br>
+
+    <input type="checkbox" id="java" name="bp" value="java">
+    <label for="java">Java</label>
+
+    <input type="checkbox" id="lainya" name="bp" value="lainya">
+    <label for="lainnya">Lainya</label><br><br>
+
+    <label for="pesan">Pesan:</label><br>
+    <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+    <a href="home.html">
+        <button type="button">Login</button>
+    </a>
+</form>
+
+  </body>
+</html>

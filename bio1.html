@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<style>
+  .changing-bg {
+    width: 100%;
+    height: 50px;
+    animation: changeBackground 1s linear infinite;
+  }
+  @keyframes changeBackground {
+    0%, 100% {
+      background-color: #ff0000; /* Warna awal */
+    }
+    25% {
+      background-color: #00ff00; /* Warna kedua */
+    }
+    50% {
+      background-color: #0000ff; /* Warna ketiga */
+    }
+    75% {
+      background-color: #ffff00; /* Warna keempat */
+    }
+  }
+marquee{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+</style>
+<body>
+<audio autoplay loop>
+            <source src="dj.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    <div class="changing-bg"><div class="marquee"><marquee behavior="scroll" scrollamount="30" direction="right">SELAMAT DATANG DI BIODATA</marquee></div></div>
+     <img src="ellay.jpg" style="width:70px; height:70px; object-fit:cover; border-radius: 50px; left:190px; position: absolute; top: 80px;" class="centered-img">
+<table border="3" width="80%" style="border-collapse: colapse; position: absolute; top: 170px; left: 45px; scale:1.2">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Alamat</th>
+            <th>No.HP</th>
+            <th>Back</th>
+        </tr>
+        <tr>
+            
+            <td>Reyno</td>
+            <td>16</td>
+            <td>Bandar Lampung</td>
+            <td> <a href ="https://wa.me/6289632166438?text=Hallo+Bro+I+got+your+number+at+web"> click here </a></td>
+            <td> <a href ="tugas 1.html"> click here </a></td>
+        </tr>
+    </table>
+</body>
+</html>

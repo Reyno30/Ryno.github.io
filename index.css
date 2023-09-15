@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* navbar {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       backgroung-color: #333;
+        }
+        
+    navbar li {
+        float:top;
+        left: 10px;
+    }
+.navbar li a{
+    display:block;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+}
+.navbar li a{
+    background-color:#ddd;
+    color:black;
+} */
+/*style button*/
+.button{
+  padding: 0;
+  margin: 0;
+  height: 30px;
+  width: 90px;
+  position: relative;
+  border-radius: 5px;
+    left: 20px;
+    /*display:inline-block ;*/
+    background-color:transparent;
+    color: violet;
+    border:1px solid violet;
+    cursor:pointer ;
+ 
+}
+.button:hover{
+    background-color:#928;
+}
+.WM{
+  left: 150px;
+  position: relative;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+div{
+}
+button{
+  font-family: 'Poppins', Sans-Serif
+}
+.navbar{
+  
+  gap: 10px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  background-color: transparent;
+  border-block: 2px solid violet;
+  height: 60px;
+  width: 100%;
+  width: 100%;
+  z-index: 2;
+}
+.blur{
+  filter: blur(px);
+}
+body {
+  background: url(bg.jpg);
+}
+ table {
+    /* Border-collapse: Collapse; */
+    width: 97%;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    background-color: transparent;
+    top: 70px;
+    /*filter: blur(205px);*/
+    border: 1px violet solid;
+  }
+    th, td {
+    border: 1px solid violet;
+    padding: 8px;
+    text-align: left;
+  }                        
+   th {
+    background-color: transparent;
+    text-align: center;
+   }
+   .judul {
+     color:white;
+   }
+   .isi {
+     color: white;
+   }
+   tr {
+     color: white ;
+     font-family: 'Poppins';
+   }
+   .wa {
+     position: relative;
+     top:120px;
+     left: 178px;
+     height: 30px;
+     width: 90px;
+     border-radius: 10px;
+     background-color: #2ecc71;
+     color:white;
+     font-family: 'Bebas Neue';
+     font-size: 20px;
+     border: 3px solid black;
+   }
+   .wa:hover{
+     background-color: rgba(255, 255, 255, 0.2) ;
+   }
+   .twa{
+     position: relative;
+     top:283px;
+     width: 430px;
+     left: 136px;
+     background-color: transparent;
+     font-size: 20px;
+     border: 1;
+     color:white;
+   }
+   .ttt{
+     position:relative;
+     top:200px;
+     width: 180px;
+   }

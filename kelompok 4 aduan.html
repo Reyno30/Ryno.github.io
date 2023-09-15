@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>Form Aduan</h2>
+
+<form action="proses_aduan.php" method="POST" enctype="multipart/form-data">
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama" placeholder="Maskan nama anda" required><br><br>
+
+    <label for="nama">Alamat:</label>
+    <input type="text" id="alamat" name="alamat" required><br><br>
+
+    <label for="deskripsi">Deskripsi Aduan:</label><br>
+    <textarea id="deskripsi" name="deskripsi" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="gambar">Unggah Gambar:</label><br>
+    <input type="file" id="gambar" name="gambar" accept="image/*"><br><br>
+
+    <input type="submit" value="Kirim Aduan" onclick="prosesAduan()">
+</form>
+
+</body>
+</html>
